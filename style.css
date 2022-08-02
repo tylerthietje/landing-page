@@ -35,11 +35,12 @@ a {
 }
 
 .hero-container {
-  margin: 40px auto;
+  margin: 50px auto;
+  height: 300px;
   width: 960px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .hero-left {
@@ -55,7 +56,7 @@ a {
 }
 
 .image {
-  height: 200px;
+  height: 215px;
   background-size: cover;
 }
 
@@ -77,4 +78,45 @@ button {
   padding: 4px 24px;
   border-radius: 5px;
   margin: 20px 0;
+}
+
+.info {
+  text-align: center;
+    /* width: 860px; */
+
+}
+
+.info-title {
+  margin-bottom: 25px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.card {
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px; 
+  /* background-color: gray; */
+  border: 3px solid rgba(0, 0, 255, 0.359);
+  border-radius: 10px;
+}
+
+.caption {
+  font-size: 14px;
+  margin: 5px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  height: 200px;
 }
