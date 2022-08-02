@@ -88,6 +88,8 @@ button {
 
 .info-title {
   margin-bottom: 25px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .info-container {
@@ -116,7 +118,60 @@ button {
   margin: 5px;
 }
 
+.quote {
+  background-color: #a8b0c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .quote-container {
-  background-color: #e5e7eb;
-  height: 200px;
+  flex-direction: column;
+  width: 800px;
+  padding: 70px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quote-author {
+  text-align: end;
+  font-weight: 900;
+}
+
+.cta-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+  width: 960px;
+  margin: 50px;
+}
+
+.cta-btn {
+  border: white 1px solid;
+}
+
+.cta-subtext{
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 25px;
+  text-align: center;
 }
